@@ -4,6 +4,7 @@ This dice game is implemented on the DE10-Lite FPGA. Players take turns rolling 
 
 
 Top Level Quartus Schematic [split into sections]
+
 Inputs:
 
 <img width="629" alt="Screenshot 2025-07-09 at 10 11 43 PM" src="https://github.com/user-attachments/assets/cd04117a-8d64-4336-9c01-39c7ec31311d" />
