@@ -2,6 +2,7 @@
 
 This dice game is implemented on the DE10-Lite FPGA. Players take turns rolling a 6-sided die and may either add the roll to their score or pass. The objective is to reach a score as close to 23 as possible without exceeding it. Special rules are handled in hardware: if a 6 is rolled, it is automatically added regardless of switch input. If both Add and Pass are activated, the game checks for a 6; otherwise, the score is rejected.
 
+\n;
 Top Level Quartus Schematic [split into sections]
 Inputs:
 
