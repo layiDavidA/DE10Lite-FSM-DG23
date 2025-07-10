@@ -34,12 +34,14 @@ Reg4:
 
 <img width="625" alt="Screenshot 2025-07-09 at 10 13 19 PM" src="https://github.com/user-attachments/assets/cb6b8d31-6f66-4388-9486-c2587b959a6d" />
 
+State diagram:
 
+<img width="436" height="562" alt="Screenshot 2025-07-10 111802" src="https://github.com/user-attachments/assets/1a1c8b20-0d10-4833-9cce-608b3eecf315" />
 
 
 How and why did you choose the state assignment encoding that you did?
 
-For this lab, I chose to use the recommended state assignments of one-hot encoding. One-hot encoding allows a single active bit per state, simplifies combinational logic, improves speed, and makes debugging easier. One-hot encoding also allowed us to look at the flow diagram provided in lab 6 and obtain our state equations directly from there.
+I chose to use the recommended state assignments of one-hot encoding. One-hot encoding allows a single active bit per state, simplifies combinational logic, improves speed, and makes debugging easier. One-hot encoding also allowed us to look at our flow diagram  and obtain our state equations directly from there.
 
 What happens if the Add and Pass switches are both activated simultaneously after a roll? Explain how this is implemented in your design.
 
