@@ -6,21 +6,27 @@ Inputs:
 
 
 State Equations:
+
 <img width="709" alt="Screenshot 2025-07-09 at 10 12 04 PM" src="https://github.com/user-attachments/assets/dd93efac-2c0c-448a-8289-cbd9c21789b7" />
 
 Dice Rolling:
+
 <img width="620" alt="Screenshot 2025-07-09 at 10 12 19 PM" src="https://github.com/user-attachments/assets/e0fadd6d-7bf4-4eff-97c8-69d3a8d7df04" />
 
 Counter:
+
 <img width="628" alt="Screenshot 2025-07-09 at 10 12 34 PM" src="https://github.com/user-attachments/assets/017c5990-50bd-4584-b30b-03789271232b" />
 
 Adder and Score Combo Logic:
+
 <img width="621" alt="Screenshot 2025-07-09 at 10 12 51 PM" src="https://github.com/user-attachments/assets/7113d91b-a595-4657-951c-838adcaab530" />
 
 Reg5:
+
 <img width="626" alt="Screenshot 2025-07-09 at 10 13 03 PM" src="https://github.com/user-attachments/assets/313e1347-c873-42bc-95f3-a26070bff1f9" />
 
 Reg4:
+
 <img width="625" alt="Screenshot 2025-07-09 at 10 13 19 PM" src="https://github.com/user-attachments/assets/cb6b8d31-6f66-4388-9486-c2587b959a6d" />
 
 
