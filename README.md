@@ -32,14 +32,18 @@ Reg4:
 
 
 
-how and why you chose the state assignment encoding that you did?
+How and why did you choose the state assignment encoding that you did?
+
 For this lab, I chose to use the recommended state assignments of one-hot encoding. One-hot encoding allows a single active bit per state, simplifies combinational logic, improves speed, and makes debugging easier. One-hot encoding also allowed us to look at the flow diagram provided in lab 6 and obtain our state equations directly from there.
 
-what happens if the Add and Pass switches are both activated simultaneously after a roll? Explain how this is implemented in your design?
+What happens if the Add and Pass switches are both activated simultaneously after a roll? Explain how this is implemented in your design.
+
 Based on my design, if the add and pass switches are both activated simultaneously after a roll, the game will automatically reject the score, but if you roll a six, the game will add the six. This is implemented in our design through our state equations. We roll the dice, and then from there, the game checks if a six is rolled. If both switches are up and a six is rolled, we automatically go into State E, which is the state where we add the score. If both switches are up and a six is not rolled, then we automatically enter State C, which passes the dice value, and then the game enters a state to reroll for another dice value.
 
 What is one new feature you would add if you had more time?
+
 If I had time to implement a new feature, I would add a 3-second timer that the player would have to reject or add their score. If the timer went off, then it would automatically add their dice value rolled to their score no matter what.
 
 Conclusion
+
 I learned how to design an FSM for a dice game using digital logic components and one-hot encoding for simplified control logic. In this lab, I used combo logic for score calculation and also handled different inputs (debounced vs. bouncing switches). I also debugged using LEDs and simulations. This lab was very challenging, but I learned a lot about FSM and state transitions.
